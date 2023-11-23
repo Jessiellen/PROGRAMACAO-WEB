@@ -1,0 +1,55 @@
+
+Simple Text Editor: Desenvolva um editor de texto simples que permita ao usuário criar,
+editar e salvar arquivos de texto.
+
+modelo ArquivosdeTextos():
+
+Conteudo = x
+  entrada("Nome: ", "x")
+imprime ("x", + nome)
+
+
+   funcao CriarArquivos (NomedoArquivo):
+
+   entrada("Insira o novo arquivo")
+   entrada("Qual a importância da tarefa?)
+    
+      se o NomedoArquivo se encontrar dentro de arquivos.chaves():
+        imprime ("Arquivo existente")
+      se o NomedoArquivo não está dentro de arquivos.chaves():
+        imprime("Nome não encontrado") 
+      senao:
+        imprime ("Criar novo arquivo")
+       
+
+
+     imprime ("Arquivo", NomedoArquivo, "Criado com Sucesso!")
+    
+       
+
+    funcao EditarArquivo (NomedoArquivo):
+
+     Arquivo = abrir.("NomedoArquivo, "")
+     Conteudo = x
+      Arquivo.conteudo()
+      imprime ("Texto adicionado", {NomedoArquivo}, com sucesso!")
+
+    funcao SalvarArquivos():
+
+
+
+
+   funcao TextEditor():
+
+    imprime ("1 - Criar Arquivo")
+    imprime ("2 - Editar Arquivo")
+    imprime ("3 - Salvar Arquivos")
+    
+
+     Opcao = 
+  
+
+  
+       
+
+     

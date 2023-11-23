@@ -1,0 +1,14 @@
+funcao InverterString (array):
+
+    resultado = []
+    contadorInvertido = array.tamanho()-1
+    contador = 0
+      
+      para cada x em array:
+        resultado[contador] = arrayInvertida[contadorInvertido]
+
+        contador = contador + 1
+          retorna resultado
+
+entrada ("Digite uma palavra para inverter", array)
+  imprime ("A string invertida e {InverterString(array)}")

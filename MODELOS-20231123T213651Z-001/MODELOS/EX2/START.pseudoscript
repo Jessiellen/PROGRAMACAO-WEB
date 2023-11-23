@@ -1,0 +1,31 @@
+# Guess the Number: Desenvolva um jogo em que o computador escolhe um número
+aleatório e o jogador tenta adivinhar qual é. O programa deve fornecer dicas para indicar se o
+palpite está muito alto ou muito baixo.
+
+# Logica
+
+modelo Guess the Number():
+
+  funcao palpite():
+   
+   se palpite < NumAleatorio:
+    imprime ("Você errou, palpite baixo!") 
+   se palpite > NumAleatorio:
+    imprime ("Você errou, palpite muito alto!")
+   senao:
+    imprime ("Parabéns! Você acertou o numero")
+
+
+
+
+# Execução
+
+  entrada("Bem vindo ao jogo Guess the Numb!")
+  entrada("Tente advinhar o numero, voce tem 1 tentativa!")
+  
+
+  NumAleatorio = aleatorio() 
+  tentativas = 1
+  entrada("Digite seu numero", tentativa)
+    imprime("Meu numero, " + tentativas)
+  palpite = tentativas.aleatorio("Digite seu palpite")

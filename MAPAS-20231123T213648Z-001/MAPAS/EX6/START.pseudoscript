@@ -1,0 +1,14 @@
+funcao RegistrodeContas():
+ 
+ Listadecompras= {}
+  total_compras = 0
+  While True:
+   produto = produto.("produto")
+    preco = float(input("produto"))
+     total_compras += preco
+     continuar = input("queres adicionar mais produtos"?)
+     se continuar.lower() 1= "s"
+      retonar
+       Imprime ("total de compra; , total_compras")
+ 
+  

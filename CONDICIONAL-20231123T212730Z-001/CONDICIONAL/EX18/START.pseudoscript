@@ -1,0 +1,28 @@
+#Crie um programa que determine se um número é uma potência de 2.
+
+
+#A potenciação é uma operação matemática. Utilizamos a potenciação para indicar multiplicações consecutivas de um mesmo fator. 
+Por exemplo, 3 elevado a 5 representa 5 multiplicações do número 3, o que resulta em 243. 
+Dizemos que 3 é a base, 5 é o expoente e 243 é a potência.
+
+Minha lógica:
+O programa irá pedir um número e utilizará de uma funcao em que a condição será dada pelo resultado que aparecer após consecutivas divisões por 2
+(tipo um loop ++ )
+Se durante as divisões o resultado for 1, entao o numero é uma potencia de 2, senao,
+se no resultado aparecer  um número menor que 1, entao assume que não é uma potencia de 2
+
+funcao PotenciadeDois (numero)
+
+
+resultado = resultado +1
+
+
+se numero % 2 == 1
+ resultado = numero % 2
+   imprime ("O {numero} é uma potencia de 2")
+        
+senao numero % 2 == 0
+    imprime ("O {numero} não é uma potencia de 2")
+
+    entrada ("Digite um numero": numero)
+     imprime ("O {numero} é uma potencia de 2")

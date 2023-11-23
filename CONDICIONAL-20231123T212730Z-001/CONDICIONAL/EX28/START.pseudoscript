@@ -1,0 +1,26 @@
+#Faça um programa que determine se um número é primo de Mersenne.
+
+funcao EncontrarNumeroPrimo(numero):
+
+ multiplosEncontrados = 0
+ cada i em [2...x]:
+  se numero % i == 0:
+   multiplosEncontrados = multiplosEncontrados +1
+
+   retorna multiplosEncontrados == 1
+
+  se numeroPrimo(x):
+     imprime ("{x} é um primo)
+  senao:
+     imprime ("{x} não é primo")
+
+funcao PrimodeMersenne(x):
+
+
+numero = 2**x - 1     #numero que armazena o valor de 2p −1. Este é o formato padrão para os números primos de Mersenne.
+ se EncontrarNumeroPrimo == PrimodeMersenne(x)
+    imprime ("2^{x} - 1 é um número primo de Mersenne.")
+ senao
+    imprime("2^{x} - 1 não é um número primo de Mersenne.")
+
+entrada("Digite um número primo para verificar se é um primo de Mersenne: ")

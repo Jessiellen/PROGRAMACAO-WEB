@@ -1,0 +1,17 @@
+funcao OrdemElementosDescrecente(numero):
+
+array = []
+ para cada elemento em array(lastnumb....0):
+    se chave, valor array(numeros):
+        se numero < valor:
+            numeros.(chave, numero)
+    senao
+        numeros.adicionar um elemento ao final da lista(numero)
+         imprime("Lista atual:", numero)
+
+
+ou 
+
+array = [1,2,3,4,5]
+OrdemElementosDescrecente = sorted(array, reverse=True)
+  imprime("OrdemElementosDescrecente", numero)

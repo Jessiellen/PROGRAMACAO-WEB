@@ -1,0 +1,54 @@
+funcao AgendadeContatos:
+ 
+  AgendadeContatos.adicionar = [nome,numero]
+   imprime(nome.numero)
+
+ListadeContatos: ()
+
+   construtor(nome, numero):
+        Pessoa.Jessie = nome
+        Pessoa.123 = numero
+ 
+ #Outra forma de fazer o exercicio:
+
+agenda= ()
+funcao adicionar_contato():
+
+ nome = x
+  entrada("Nome: ", "x")
+imprime ("x", + nome)
+ numero = y
+  entrada ("Numero:", "y")
+imprime ("y", + numero)
+
+ agenda [nome] = numero
+  imprime ("Contato adicionado")
+
+funcao Procurar(nome):
+
+    se nome não está dentro de agenda.chaves():
+        imprime("Nome não encontrado")
+        retorna 
+    imprime("o numero de {nome} é {agenda[nome]}")
+
+ se tamanho(agenda)== 0
+  imprime ("Agenda vazia")
+senao para cada nome,numero na agenda:
+  imprime ("Nome": "x" , "numero": "y")
+
+  funcao Menu():
+
+   imprime ("Menu")
+   imprime ("1- adicionar_contato")
+   imprime ("2- Procurar")
+   imprime ("0- Sair")
+
+   opcao =-1
+    enquanto opcao !=0:
+     entrada ("opcao:", opcao)
+      se opcao == 1:
+       adicionar_contato()
+     se opcao == 2:
+       Procurar()
+     senao opcao == 0:
+       Sair()

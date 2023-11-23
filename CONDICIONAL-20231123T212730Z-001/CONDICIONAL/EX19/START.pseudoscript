@@ -1,0 +1,19 @@
+#Escreva um programa que calcule o desconto do NISS de um salário, considerando 11%
+para salários até €1.100,00 e 27,5% para salários acima desse valor.
+
+#Logica
+
+funcao DescontoNISS(salario):
+
+se salario <= 1100:
+        DescontoNISS = salario * 0.11
+senao:
+       descontoNISS = salario * 0.275
+
+
+#Execucao
+
+entrada ("Digite o valor do seu salario": salario)
+ 
+salario = (salario - DescontoNISS)
+ imprime ("O salario {salario} é igual a {DescontoNISS}")

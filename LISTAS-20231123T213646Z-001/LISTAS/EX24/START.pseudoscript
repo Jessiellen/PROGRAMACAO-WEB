@@ -1,0 +1,27 @@
+funcao BuscaBinaria(array, elemento):
+    inicio = 0
+    fim = tamanho(array) - 1
+
+    enquanto inicio <= fim:
+        meio = (inicio + fim) // 2
+         arrayMeio = array[meio]
+
+        se arrayMeio == elemento:
+            retorne meio
+        se arrayMeio > elemento:
+            fim = meio - 1
+        senão:
+           inicio = meio + 1
+    retorne -1
+
+arrayOrdenado = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+elementoBuscado = 9
+
+resultadoBusca = BuscaBinaria(arrayOrdenado, elemento)
+ se resultadoBusca != -1:
+    imprime("O elemento {elemento} foi encontrado na posição {resultadoBusca}")
+senão:
+    imprime("O elemento {elemento} não foi encontrado no array")
+
+
+

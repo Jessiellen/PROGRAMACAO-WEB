@@ -1,0 +1,59 @@
+Calculator App: Crie um programa que simule uma calculadora básica, permitindo a entrada
+de dois números e realizando operações de adição, subtração, multiplicação e divisão.
+
+modelo Calculator:
+    construtor(adicao, subtracao, multiplicacao e divisao):
+
+    
+    funcao adicao(a,b):
+       retorna a + b
+    funcao subtracao = (a,b)
+       retorna a - b
+    funcao multiplicacao (a,b)
+       retorna a * b
+    funcao divisao (a,b)
+        se b != 0
+        retorna a / b
+
+    funcao Calculadora_Basica():
+     imprime ("Operações Disponiveis")
+     imprime ("1 - adicao")
+     imprime ("2 - subtracao")
+     imprime ("3 - multiplicacao")
+     imprime ("4 - divisao")
+   
+   num1 = entrada("Digite seu numero", num1)
+          imprime("Meu numero, " + num1)
+   num2 = entrada("Digite seu numero", num2)
+          imprime("Meu numero, " + num2)
+
+  opcao =-1
+    enquanto opcao !=0:
+     entrada ("opcao:", opcao)
+      se opcao == 1:
+       resultado = modelo.adicionar(1,2)
+        imprime ("resultado", resultado)
+      se opcao == 2:
+       resultado = modelo.subtrair(1,2)
+        imprime ("resultado", resultado)
+      senao opcao == 3:
+       resultado = modelo.multiplicar(1,2)
+        imprime ("resultado", resultado)
+      senao opcao == 4:
+       resultado = modelo.dividir(1,2)
+        imprime ("resultado", resultado)
+      senao 
+        imprime ("opcao inválida)
+
+
+
+    ----------------
+
+
+    programa = Calculator(1,2)
+
+    programa.adicionar()
+-------------
+
+programa= Calculator()
+resultado = programa.adicionar(1,2)

@@ -1,0 +1,16 @@
+funcao VerificarOrdenado(array):
+
+array1 = [1,2,3,4,5]<
+
+    para i de 0 ate tamanho(array) - 1:
+        se array[i] > array[i + 1]:
+            retorne falso
+    senao
+       retorne verdadeiro
+
+
+se VerificarOrdenado(array) != falso:
+    imprime("O array está ordenado.")
+senão:
+    imprime("O array não está ordenado.")
+

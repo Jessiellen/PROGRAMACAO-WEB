@@ -1,0 +1,13 @@
+funcao PreencherMatriz(array):
+
+  se i = 0 && i < 8
+   i++                 
+   array[i] = 15;
+    imprime ("Matriz preenchida:", array)
+
+
+Inicio uma função com um loop onde variável de controle i é inicializada com 0. 
+O loop continuará enquanto i for menor que 8, e a cada iteração, i será incrementado por 1 (i++).
+Dentro do loop, para cada valor de i, o elemento na posição i do array é atribuído o valor 15. 
+Isso significa que cada elemento da array está sendo definido como 15 durante cada iteração do loop.
+No final do loop, a array terá todos os seus elementos com o valor 15, que foi o valor fornecido pelo utilizador.

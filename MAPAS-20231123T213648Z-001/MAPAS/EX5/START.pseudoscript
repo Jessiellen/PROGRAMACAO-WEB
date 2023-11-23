@@ -1,0 +1,11 @@
+funcao Dicionario():
+ 
+ Dicionario {"cachorro": "dog","gato": "cat","carro": "car", "casa": "house", "amor": "love"}
+  palavra = ("traducao")
+   entrada("Informe a palavra: ", palavra)
+
+   se a palavra estiver no dicionario:
+    traducao = dicionario[palavra]
+    imprime("A tradução de {palavra} é: {traducao}")
+   senao:
+     imprime("Palavra não encontrada no dicionário.")

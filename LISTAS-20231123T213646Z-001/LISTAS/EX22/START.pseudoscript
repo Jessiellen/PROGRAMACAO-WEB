@@ -1,0 +1,24 @@
+funcao ElementosOrdemCrescente(numero):
+
+array = [5, 2, 8, 1, 9, 3]
+crescente = []
+
+  se x em array(0,3):
+   se x == 0 && numero > crescente[-1]:
+    crescente.(numero)
+  senao
+    posição = 0
+     entao posição < tamanho.(crescente):
+       se numero <= crescente[posição]:
+        crescente.(posição,numero)
+        break
+      posição = posição + 1 
+  imprime ("Ordem crescente é {crescente}")
+
+#ou usa a opção sorted == é uma função embutida que é usada para ordenar iteráveis, como listas ou strings, em ordem crescente. 
+A função retorna uma nova lista contendo todos os elementos do iterável original, mas em uma ordem ordenada. 
+A lista original permanece inalterada.
+
+array = [4, 2, 8, 1, 6]
+array_ordenado = sorted(array)
+  imprime("array_ordenado")

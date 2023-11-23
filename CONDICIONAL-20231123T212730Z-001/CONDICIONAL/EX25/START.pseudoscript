@@ -1,0 +1,16 @@
+#Desenvolva um programa que calcule a raiz quadrada de um número, se o número for
+positivo.
+
+funcao CalcularRaizQuadrada(numero)
+
+resultado
+ resultado = numero ** (1/2)
+ se resultado > 0:
+            imprime("A raiz quadrada do {numero}  é positivo.")
+        senao: 
+            imprime("A raiz quadrada do {numero}  nao é positivo.")
+
+
+resultado = CalcularRaizQuadrada(numero)
+
+entrada ("Digite um numero": numero)

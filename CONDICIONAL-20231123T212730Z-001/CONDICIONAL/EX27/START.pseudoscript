@@ -1,0 +1,39 @@
+#Escreva um programa que classifique um triângulo como retângulo, obtusângulo ou
+acutângulo.
+
+Triângulo retângulo: possui um ângulo reto (90 graus).
+Triângulo obtusângulo: possui um ângulo obtuso (ângulo maior que 90 graus).
+Triângulo acutângulo: possui 3 ângulos agudos (ângulo menor que 90 graus).
+
+
+
+Variaveis(A,B,C):
+
+A = Retangulo
+ entrada ("Retangulo":,a)
+  imprime ("triângulo é Retangulo")
+B = Obtusangulo
+entrada ("Obtusangulo":,b)
+  imprime ("triângulo é Obtusângulo")
+C = Acutangulo
+entrada ("Acutangulo":,c)
+  imprime ("triângulo é Acutangulo")
+
+
+funcao Triangulos(a,b,c):
+
+  se a = 90 && b = 90 ou c = 90:
+     imprime ("O triangulo é retângulo")
+  se a > 90 && b > 90 && c > 90:
+        imprime ("O triangulo é obtusângulo")
+  se a < 90 && b < 90 && c < 90:
+        retorne ("O triangulo é acutângulo")
+
+Triangulo(a,b,c) 
+
+entrada ("Triangulo a", a)
+entrada ("Triangulo b", b)
+entrada ("Triangulo c", c)
+
+
+       

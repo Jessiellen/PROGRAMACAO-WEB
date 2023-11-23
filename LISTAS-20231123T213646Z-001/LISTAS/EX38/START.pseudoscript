@@ -1,0 +1,9 @@
+funcao ConcatenarDuasStrings(string1,string2)
+
+ string1 = "Olá, "
+ string2 = "Jessie!"
+  resultado = string1 + string2 
+   imprime ("resultado")
+
+entrada ("Insira primeira string": string1)
+entrada ("Insira segunda string": string2)

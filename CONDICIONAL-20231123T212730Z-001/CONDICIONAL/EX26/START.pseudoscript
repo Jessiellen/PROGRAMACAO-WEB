@@ -1,0 +1,15 @@
+#Crie um programa que determine se um número é um quadrado perfeito.
+
+
+É um quadrado perfeito um número inteiro não negativo no qual a raiz quadrada é também um número inteiro.
+
+Inserir (numero Int)
+pôr em √ o (número Int)
+
+Se resultado da √ = numero inteiro -> é um quadrado perfeito
+Se resultado da √ = não  for numero inteiro -> não é um quadrado perfeito
+
+
+
+
+

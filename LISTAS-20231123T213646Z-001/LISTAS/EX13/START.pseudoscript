@@ -1,0 +1,17 @@
+funcao MesesdoAno:
+ 
+ Variaveis:
+  
+  array meses = 
+  [ "Janeiro", 
+    "Fevereiro", 
+    "Março", 
+    "Abril", 
+    "Maio2, 
+    "Junho", 
+    "Julho", 
+    "Agosto", 
+    "Setembro", 
+    "Outubro2, 
+    "Novembro", 
+    "Dezembro"]

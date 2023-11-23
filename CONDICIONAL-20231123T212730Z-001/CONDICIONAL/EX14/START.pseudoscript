@@ -1,0 +1,42 @@
+#Crie um programa que verifique se um número é perfeito:
+#Dizemos que um número natural é perfeito se é igual à soma de todos os seus fatores (divisores), excluindo ele próprio.
+
+#Logica
+
+funcao NumeroPerfeito (numero):
+
+ para cada i entre (1....ate {numero})
+  se numero % i == 0:
+    SomadosDivisores = SomadosDivisores + i
+ 
+ se NumeroPerfeito(numero) for == SomadosDivisores(i):
+    imprime ("{numero} é um número perfeito.")
+senao:
+    imprime("{numero} não é um número perfeito.")
+   
+
+funcao SomadosDivisores(i)
+
+SomadosDivisores = i
+ entrada("Diga seu numero: ", i)
+  imprime("SomadosDivisores, " + i)
+
+SomadosDivisores = 0
+
+  se SomadosDivisores == 0
+   imprime ("True")
+  se SomadosDivisores != 0
+    imprime ("False")
+
+
+   
+  
+#Execucao
+
+entrada ("Digite um numero para saber se é um numero perfeito")
+
+NumeroPerfeito(numero).SomadosDivisores()
+
+
+
+

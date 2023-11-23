@@ -1,0 +1,25 @@
+Faça um programa que determine se uma pessoa pode votar, considerando a idade mínima
+de 16 anos.
+
+
+#Logica
+
+funcao PoderdeVoto (idade):
+
+ se idade >= 16:
+   imprime ("Pode Votar")
+ senao:
+   imprime ("Não pode votar")
+
+#Execucao
+
+entrada ("Digite uma idade": idade)
+
+se PoderdeVoto(idade):
+    imprime("{idade} a pessoa tem idade para votar.")
+  senao:
+   imprime("{idade} a pessoa não tem idade para votar")
+
+
+se uma pessoa tiver idade < que 16 anos ela nao pode votar;
+mas se ela tiver idade >= 16 anos ela já pode votar.

@@ -1,0 +1,16 @@
+funcao MaiorValordeArrays(array,indice,tamanho):
+
+array = [5, 2, 10, 4, 28, 7]
+i = indice
+tam = tamanho da arrays
+arrayMaior = []
+
+se i == tam
+  retonar array
+se array[i] > arrayMaior
+   arrayMaior = i
+   retorno MaiorValordeArrays(array, i+1,tam, arrayMaior)
+
+ou
+arrayMaior = array.indice(max(array))
+

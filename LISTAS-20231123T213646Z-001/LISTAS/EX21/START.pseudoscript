@@ -1,0 +1,10 @@
+funcao PosiçãoElementoArray(numero):
+
+array = [1,2,3,4,5]
+index = 3
+
+  se index no array:
+    posicao = array.index(numero)
+     imprime ("A posição do elemento {index} no array é: {posicao}")
+  senao
+     imprime ("O elemento {index} não está presente no array")

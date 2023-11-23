@@ -1,0 +1,7 @@
+funcao RepetiçõesArray()
+
+MinhaArray = [3] * 5
+ resultado = MinhaArray
+  imprime("Minha Array")
+
+  ou seja o resultado sera uma array [3, 3, 3, 3, 3].

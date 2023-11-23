@@ -1,0 +1,28 @@
+funcao BinarySearch(array, elemento):
+
+
+    inicio = 0
+    fim = array.tamanho() - 1
+
+    enquanto inicio <= fim:
+        meio = (inicio + fim) / 2
+
+    se array[meio] == elemento:
+            retorne meio 
+
+    se array[meio] > elemento:
+            fim = meio - 1
+    senao:
+            inicio = meio + 1
+        retona -1
+
+ ArrayemOrdem = [1, 2, 3, 4, 5]
+ elementoProcurado = 3
+
+
+resultado = BinarySearch(ArrayemOrdem,elementoProcurado)
+
+  se resultado != -1:
+    imprime("Elemento {elementoProcurado} encontrado no índice {resultado}.")
+else:
+    imprime("Elemento {elementoProcurado} não encontrado no array.")

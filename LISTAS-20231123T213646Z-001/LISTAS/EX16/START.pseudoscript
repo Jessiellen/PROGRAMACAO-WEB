@@ -1,0 +1,11 @@
+funcao CopiarArrays()
+
+array1 = [1,2,3,4,5]
+array2 = []
+
+array2 = array2[:]    # O [:] significa "pegue todos os elementos a array anterior".
+ou
+para cada elemento em array1:
+    array2.adicionar(elemento)
+
+imprime ("CopiarArrays:", array2)

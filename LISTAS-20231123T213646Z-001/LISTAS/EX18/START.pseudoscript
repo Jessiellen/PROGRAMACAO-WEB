@@ -1,0 +1,28 @@
+lista = [1, 2, 3, 4, 4, 5, 6, 6, 7, 8]
+
+funcao removeDuplicados
+    mapa = ()
+
+    cada elemento em array:
+        se elemento está em mapa.chaves():
+            mapa[elemento] ++
+        senao:
+            mapa[elemento] = 0
+
+    resultado = []
+    cada chave em mapa.chaves():
+        resultado.adiciona(chave)
+
+    retorna resultado
+
+    ou
+
+array1 = [1, 2, 3, 1, 2, 4, 5, 6, 4]
+array2 = []
+
+ para cada elemento em array1:
+    se elemento não está em array2:
+            array2.adicionar(elemento) 
+    senao
+      retorna
+    

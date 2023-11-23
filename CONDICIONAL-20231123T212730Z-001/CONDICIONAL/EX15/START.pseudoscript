@@ -1,0 +1,37 @@
+#Escreva um programa que determine se um ano é ou não um número primo.
+
+
+#Logica
+
+funcao NumeroPrimo(ano):
+
+ NumerosDivisores = 0
+  a cada numero em [2...ano]:
+   se ano % numero == 0
+    NumerosDivisores = NumerosDivisores ++
+     retorna NumerosDivisores == 1
+
+   se o ano % numero <= 2
+    imprime ("{ano} é um ano primo")
+   senao:
+    imprime ("{ano} não é um ano primo")
+   
+
+
+
+#Execucao
+
+entrada("Diga um numero:",ano)
+  se NumeroPrimo(ano):
+     imprime ("{ano} é um ano primo)
+  senao:
+     imprime ("{ano} não é um ano primo")
+
+
+
+O número é primo se for divisível por 1 e por ele mesmo ou é um número com dois divisores, ele próprio e outra unidade/numero.
+Entao buscamos os divisores, sendo que nap p+osso comecar por 1, porque se o colocar vai dar que é um numero primeo mesmo ele nao sendo,
+entao colacarei o numero 2 que é um número primo, portanto divisor inicial será o 2.
+Se na função tiver algum divisor que o resto da divisão seja igual a 0 ele não é primo e podemos parar com o calculo, mas senao teremos
+o numero primo ou ano primo.
+

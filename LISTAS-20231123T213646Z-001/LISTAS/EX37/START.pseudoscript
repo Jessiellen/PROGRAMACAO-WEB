@@ -1,0 +1,11 @@
+funcao VerificarPolidromo(string):
+
+    tamanho = string.tamanho()
+
+      se tamanho == 0:
+        imprime ("Não é um Palíndromo")
+         para cada i in string(0...string.tamanho) // 2:
+          se string[i] != string[string.tamanho - i - 1]: 
+              imprime ("Não é um Palíndromo")
+       senao
+            imprime ("A {string}é um Palíndromo")

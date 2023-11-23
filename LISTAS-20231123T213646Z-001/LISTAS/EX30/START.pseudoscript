@@ -1,0 +1,24 @@
+funcao bubbleSort(array):
+    tamanho = array.tamanho()
+
+    para cada i de 0 até tamanho - 1:
+        para cada j de 0 até tamanho - i - 1:
+            se array[j] > array[j + 1]:
+                temp = array[j]
+                array[j] = array[j + 1]
+                array[j + 1] = temp
+
+
+
+# Exemplo de array desordenado
+   array1 = [2,5,8,6,4,1,7,3]
+    imprime("Array:", array1)
+
+   bubbleSort(array1)
+    imprime("Array ordenado:", array1)
+
+    
+#não sei como implementar uma funcao para o caso de array estiver ordenada.
+
+
+

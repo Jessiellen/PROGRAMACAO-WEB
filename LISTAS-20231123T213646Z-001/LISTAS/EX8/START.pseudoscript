@@ -1,0 +1,16 @@
+funcao VerificarElemento(lista)
+
+lista = [1, 2, 3, 4, 5, 6, 7, 8...]
+
+elemento = 3
+
+  para cada elemento na lista:
+    se lista == elemento:
+        imprime ("Verdadeiro") 
+    senao
+        imprime ("Falso")
+
+    se VerificarElemento(lista):
+        imprime(O"{elemento} está presente na lista.")
+    senao
+        imprime ("{elemento} não está presente na lista.")

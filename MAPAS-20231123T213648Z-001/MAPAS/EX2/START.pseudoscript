@@ -1,0 +1,34 @@
+funcao ContagemdeLetras(frase):
+ 
+ Frequencia: {}
+ Frase = ("Olá,mundo!)
+ Contador = ContagemdeLetras (frase)
+
+ frase [letra] = ("Olá,mundo!)
+
+  se a letra estiver dentro de frase.chaves():
+       contagem [letra] = += 1
+  senao estiver adiciona a letra com comtagem 1
+   contagem [letra] = 1
+     retornar
+  
+funcao ImprimirContagem (frase):
+  
+  se cada letra e frenquenci nao estiver na frase.chaves():
+        imprime("Nome não encontrado")
+        retorna 
+    imprime("A letra {letra} aparece {frequencia} vezes na frase")
+
+
+ resultado = ContagemdeLetras (frase)
+
+ Frase: Olá, mundo!
+     A letra `O´ aparece 2 vezes na frase.
+     A letra `L´ aparece 1 vezes na frase.
+     A letra `A´ aparece 1 vezes na frase.
+     A letra `M´ aparece 1 vezes na frase.
+     A letra `U´ aparece 1 vezes na frase.
+     A letra `N´ aparece 1 vezes na frase.
+     A letra `D´ aparece 1 vezes na frase.
+
+

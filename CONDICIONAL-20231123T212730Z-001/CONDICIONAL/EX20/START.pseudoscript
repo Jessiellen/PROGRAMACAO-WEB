@@ -1,0 +1,29 @@
+#Faça um programa que verifique se uma palavra é um palíndromo.
+
+
+#Logica
+
+funcao VerificarPolindromo(palavra)
+
+tamanho = palavra
+i = 0   #seria o primeiro indice da palavra,sempre começa de 0.
+
+ enquanto tamanho >= i:
+  se palavara != palavara.tamanho()
+i++
+  se i == 0
+   imprime ("A {palavra} é um polindromo")
+  senao
+   imprime ("A {palavara} não é um polindromo") 
+
+
+#Execucao
+
+entrada ("Digite "": palavra)
+
+
+ou 
+
+
+palavra = palavra [:-1] 
+ retona palavra == inverso

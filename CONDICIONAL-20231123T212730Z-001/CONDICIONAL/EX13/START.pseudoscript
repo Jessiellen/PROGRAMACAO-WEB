@@ -1,0 +1,23 @@
+# Desenvolva um programa que calcule o valor do transporte de acordo com a distância
+percorrida, sendo €1,50 por quilômetro
+
+
+#Logica
+
+DistanciaemKM = DistanciaemKM
+ entrada ("Digite sua distancia em quilômetro", DistanciaemKM")
+
+ValorporKM = 1.50
+
+funcao CustodoTransport:
+
+ CustodoTransport = DistanciaemKM * ValorporKM
+  imprime ("O custo do transporte para {DistanciaemKM} é {ValorporKM}")
+
+#Execução
+
+entrada ("Digite sua distancia em quilômetro")
+CustodoTransport = CustodoTransport ()
+
+
+

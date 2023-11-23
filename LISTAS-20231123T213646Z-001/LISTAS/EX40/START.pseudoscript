@@ -1,0 +1,14 @@
+funcao DividirString(array)
+
+ array = []
+ pedacos = []
+ i = 0
+    
+ enquanto i < array.tamanho()
+      i % n == 0 && i + n : 
+        i++
+     
+
+
+entrada ("Insira uma frase para dividir ela em palavras ", array)
+imprime ("a frase dividida em arrays é {DividirStringy(array)}")

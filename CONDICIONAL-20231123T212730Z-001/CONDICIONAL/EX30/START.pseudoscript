@@ -1,0 +1,32 @@
+#Crie um programa que determine se um número é primo de Fermat.
+
+A lógica por trás do teste de Fermat é que, se p é primo, então para qualquer numero não divisível por p,numero elevado p-1≡1.
+Se esta condição falhar para um numero aleatório, então p não é primo.Mas,se passar, p é considerado provavelmente primo. 
+Isto porque não é certo o resultado (pode haver falsos positivos) como "511", mas ir testando os numeros melhora o resultado.
+
+funcao EncontrarExpoente(numero)
+
+ se numero % 2 == 0:
+     numero = numero / 2
+      retorne numero == 1
+ se numero > 0:
+   numero % 2 == 1:
+    result = (result * numero) % numero
+        numero = numero // 2
+
+funcao PrimodeFermat(numero):
+    se numero <= 1:
+        retorna False
+    se numero == 2:
+        retorna True
+    senao
+     se EncontrarExpoente(numero) != 1:
+       se PrimodeFermat(numero):
+    imprime("O {numero} é um número primo de Fermat.")
+senao
+    imprime("O {numero} não é um número primo de Fermat.")
+
+
+entrada ("Digite um número para verificar se é primo de Fermat: ")
+
+  

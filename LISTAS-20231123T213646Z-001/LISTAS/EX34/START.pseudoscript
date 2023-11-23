@@ -1,0 +1,20 @@
+funcao RotacionarElementosArray(array)
+
+ tamanho = array.tamanho()
+ x = x % array.tamanho()
+ ArrayNova = ArrayNova[array.tamanho()]
+
+    para i de 0 a array.tamanho() - 1:
+      ArrayNova[(i + x) % array.tamanho()] = array[i]
+       retorna ArrayNova
+    
+array = [1, 2, 3, 4, 5]
+QuantidadesdeRotacao = 2
+
+RotacionarElementosArray = RotacionarElementosArray(array, QuantidadesdeRotacao)
+
+imprime("Array Rotacionado para a Direita:")
+imprime(arrayRotacionado)
+
+entrada("Array:" array)
+  imprime(array)

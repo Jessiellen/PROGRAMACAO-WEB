@@ -1,0 +1,13 @@
+funcao PreencheArray(elementos)
+
+entrada ("Quantos elementos quer inserir? ", elementos)
+
+array = []
+
+para cada i de 1 a elementos
+    entrada ("Digite um numero", numero)
+        array.adicionar numero
+
+array = PreencheArray(elementos)
+
+imprime ("aqui está o seu array: {}")

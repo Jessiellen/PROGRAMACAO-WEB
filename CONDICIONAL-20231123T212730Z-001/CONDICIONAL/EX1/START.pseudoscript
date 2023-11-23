@@ -1,0 +1,36 @@
+funcao programa:
+
+ Variaveis():
+  A = 1 
+   imprime ("positive")
+  B = -0
+   imprime ("negative")
+  C = 0
+   imprime ("zero")
+  Num = 10
+
+#meu numero é  10
+
+ Construtor():
+  se num > a:
+   imprime ("positive")
+  se num < b:
+   imprime ("negative")
+  se num = c:
+   imprime ("zero")
+
+   retorne 0.
+   
+
+CORRECAO:
+
+  funcao verificarNumero (numero)
+   se numero == 0
+     imprime ("O numero é Zero")
+   se numero > 0;
+     imprime ("O numero é positivo)
+   se  < 0:
+     imprime ("O numero é negativo")
+
+    entrada(Diga o seu numero", x)
+    verificaNumero (x)

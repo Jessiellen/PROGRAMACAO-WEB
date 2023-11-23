@@ -1,0 +1,16 @@
+funcao SubstituirString(MinhaString,NovaString)
+
+resultado = 0
+
+ para cada i em string:
+  se MinhaString == i
+    array[resultado] = NovaString
+    resultado = resultado +1
+   senao
+     resultado = resultado + i
+    retorne resultado
+s
+
+entrada ("Insira uma frase")
+entrada ("Insira a frase que sera trocada", MinhaString)
+entrada ("Insira a nova frase", NovaString)

@@ -1,0 +1,28 @@
+funcao AnoBissexto:
+ defini-se um ano é bissexto um ano que tem 366 dias, logo um ano bissexto é divisivel por 4 pois acontece de 4 em 4 ano, 
+ de 100 em 100 anos não é bissexto, exceto multiplos de 400.
+
+Variaveis():
+ Ano = inteiro:
+ rest = 0
+  #ano que eu escolhi: 2022
+
+Construtor():
+  se Ano % 4 = True
+  se Ano % 400 = True
+  se Ano % 100 = True
+   imprime ("AnoBissexto")
+  senao for divissivel por 4,400 ou 100
+   imprime ("NãoBissexto")
+   
+ CORRECAO:
+
+ funcao AnoBissexto(ano):
+  retorna (ano % 4 == 0) && (ano % 100 != 0)
+   
+  entrada("diga o ano:", x)
+
+  se AnoBissexto(x):
+   imprime ("O ano "+ x +" é Bissexto")
+  senao:
+   imprime ("O ano {x} não é Bissexto)

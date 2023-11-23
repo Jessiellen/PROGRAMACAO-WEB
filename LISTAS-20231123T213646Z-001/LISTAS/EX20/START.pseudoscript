@@ -1,0 +1,12 @@
+funcao MediaDoArray(array1)
+    
+    array1 = [5, 2, 8, 1, 9, 3]
+    soma = 0
+    resultado = 0
+    para cada elemento em array1:
+        soma = soma + elemento
+        resultado = resultado +1
+
+    media = soma / array1.tamanho()
+     retorne media
+      imprime ("A média do array é de (media)")

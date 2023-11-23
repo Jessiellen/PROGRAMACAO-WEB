@@ -1,0 +1,36 @@
+funcao verificarNumeroPrimo:
+   Variaveis():
+    cont, num, div : inteiro
+     cont = contar
+     num = 5, que é o numero que escolhi pra saber se é ou nao um numero primo
+     div = qauntidades de divisores que irei utilizar para saber se o numero é primo ou nao
+
+    construtor():
+     div = 0
+      imprime (" Informe um numero inteiro")
+       leia (num) que e igual a 5
+         cont de 1 ate 5 faca
+           se ( 5 / cont = 0):
+             entao div = div + 1 ( entao o divisor ira comecar do 0 ate o numero 5)
+           se (div = 2)
+             imprime ("o numero é primo")
+           senao:
+              imprime ("o numero nao é primo")
+
+
+CORRECAO:
+
+funcao numeroPrimo(x):
+
+ multiplosEncontrados = 0
+ cada numero em [2...x]:
+  se x % numero == 0:
+   multiplosEncontrados = multiplosEncontrados +1
+
+   retorna multiplosEncontrados == 1
+
+ entrada("Diga um numero:",x)
+  se numeroPrimo(x):
+     imprime ("{x} é um primo)
+  senao:
+     imprime ("{x} não é primo")

@@ -1,0 +1,23 @@
+funcao Programa:
+ imprimir o numero maior
+
+ Variaveis().
+  x = 4
+  Y = 2
+
+  Construtor():
+   se x > Y
+     imprimi ("Valor maior)
+    senao X < Y
+      imprimi ("Valor menor")
+      
+ CORRECAO:
+
+ funcao decideMaisouMenosMaior(a,b):
+  se a > b:
+   imprime ("{a} é maior do que {b})
+  senao: 
+   imprime ({b} é maior do que {a})
+
+  entrada("giga o primeiro numero: ",a)
+    

@@ -1,0 +1,13 @@
+funcao ContarVogais(palavra):
+
+ vogais = "AEIOU"
+ contadordeVogais = 0
+
+  para cada vogal em palavra :
+   contadordeVogais = contadordeVogais +1
+    retorna contadordeVogais
+
+entrada ("digite uma palavra", palavra)
+imprime("Possuem {ContaVogais(palavra)} vogais na palavra {palavra}")
+
+  

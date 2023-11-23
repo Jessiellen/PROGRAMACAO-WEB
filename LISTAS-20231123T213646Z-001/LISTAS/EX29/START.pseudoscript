@@ -1,0 +1,26 @@
+#Transpor uma matriz significa que mudo as posições, como linhas por colunas.
+Sendo o que era linha vira coluna e o que era coluna vira linha;
+
+
+funcao TransporMatriz():
+
+ matriz = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+ ]
+
+ matrizTransposta = [0]
+ i = coluna
+ j = linha
+
+matrizTransposta = [matriz[0].tamanho][matriz.tamanho];
+
+   enquanto i = 0 && i < matriz.tamanho; 
+     i++
+   enquanto j = 0 && j < matriz[0].tamanho; 
+     j++
+      matrizTransposta[j][i] = matriz[i][j];
+       imprime ("Matriz Transposta:" TransporMatriz)
+         para cada linha em matrizTransposta:
+            imprime(linha)

@@ -1,0 +1,4 @@
+Funcao Alterar:
+ Variaveis():
+  alunos["Jessie", "Lucas", "Matheus", "Joao", "Pedro"]
+    alunos[2] = "Julia";

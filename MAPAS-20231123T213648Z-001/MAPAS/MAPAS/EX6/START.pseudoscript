@@ -1,0 +1,30 @@
+#Registo de Compras: Criar um programa que permita ao utilizador registar suas
+compras, associando produtos e preços. O programa deve calcular o total das
+compras. Nota: O aluno deve criar um loop para permitir várias entradas de compras.
+
+
+funcao RegistrodeCompras():
+
+  compras = []
+
+    entrada("Insira o nome do produto: ", produto)
+    entrada("Insira o preço do produto: ", preco)
+
+    se produto == "sair":
+       retorna
+    se tipo(preco) não é número ou preco <= 0:
+        imprime("Preço inválido.")
+        
+    
+    compra = ('produto'->produto, 'preco'->preco)
+     compras.adicionar(compra)
+      imprime("Compra registada com sucesso!.")
+
+Função CalculartotaldasCompras()
+
+  totalCompras = 0
+    para cada compra em compras:
+    totalCompras = totalCompras + compra.preco
+
+
+imprime("Total das Compras: " + totalCompras)

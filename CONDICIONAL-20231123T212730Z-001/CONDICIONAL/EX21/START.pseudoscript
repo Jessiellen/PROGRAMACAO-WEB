@@ -1,0 +1,26 @@
+#Desenvolva um programa que determine se um número é triangular.
+
+#Um número é triangular quando o resultado do produto de três números consecutivos.
+Exemplo: 24 = 2 x 3 x 4.
+
+
+#logica 
+
+
+funcao EquacaçãoNumeroTriangular(numero):
+
+   enquanto x(x+1)/2 = numero
+     se x == numero
+
+      imprime ("O {numero} é Triangular")
+     
+     senao
+       imprime ("O {numero} não é Triangular")
+
+
+#Execução
+
+
+entrada ("Digite um "numero": numero)
+
+  

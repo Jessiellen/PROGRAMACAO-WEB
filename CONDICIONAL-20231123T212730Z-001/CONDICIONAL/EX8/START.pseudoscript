@@ -1,0 +1,25 @@
+funcao Letra:
+
+Variaveis:
+ letra = costureira
+ vogais = a,e,i,o,u
+
+ Construtor():
+  se letra = "a" ou letra = "e" ou letra ="i" ou letra = "o" ou letra = "u"
+   imprime ("vogal")
+
+ senao imprime ("cosoante")
+
+
+CORRECAO:
+
+funcao eVogal():
+ vogais = ["a","e","i","o","u"]
+
+ retorna caractere está em vogais
+
+ entrada ("Digaum caractere;!, x)
+
+  se eVogal(x):
+   imprimer ("é vogal)
+   

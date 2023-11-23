@@ -1,0 +1,38 @@
+Temperature Converter: Faça um conversor de temperatura que permita ao usuário
+converter entre Celsius e Fahrenheit. O programa deve aceitar uma entrada de temperatura e
+realizar a conversão.
+
+
+# Logica
+
+modelo TemperatureConverter:
+  
+  
+  funcao executa(option, 1, 2)
+    
+    
+    option = ("1. Celsius para Farenheit:) + ("2. Farenheit para Celsius: "))
+
+      se opcao == 1:
+            C = ("Graus Celsius: ") 
+              imprime ("Convertido: ", C_para_F(C)," graus Farenheit")
+      se opcao == 2:
+            F= ("Graus Farenheit: ")
+               imprime ("Convertido: ", F_para_C(F)," graus Celsius")
+
+# Execução
+
+   entrada("Conversor de Temperatura")
+   entrada("1 Celsius para Fahrenheit:" , 1)
+   entrada("2 Fahrenheit para Celsius:" , 2)
+
+   CelsiusparaFahrenheit (Celsius):
+     Fahrenheit = ("Celsius*9/5")+ 32
+      retorna Fahrenheit
+
+   FahrenheitparaCelsius (Fahrenheit):
+     Celsius = ("Fahrenheit-32)*5/9
+       retorna Celsius
+
+ TemperatureConverter.executa(option,1,2)
+

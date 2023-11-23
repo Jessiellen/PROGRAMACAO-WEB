@@ -1,0 +1,31 @@
+funcao Programa:
+  Variaveis():
+   rest = 0
+   num: meu numero 5
+   impar = 1
+   #numero que nao pode ser dividiso em duas parte:
+     exemplo: 5+4 = 9.
+   par = 2
+   #numero que pode ser dividido em duas parte: 
+     exemplo: 4+4 = 8.
+
+  Construtor():
+    se num%2 = 0
+     imprime ("positivo")
+    senao num%2 = 1
+     imprime ("negtivo")
+     
+
+CORRECAO 
+
+ funcao ParImpar (numero)
+   se numero % 2 == 0:
+    retorna "O numero é par"
+   senao
+    retorna "o numero é impar"   
+
+  entrada("Diga seu numero", x)
+
+    imprime(
+     ParImpar(x)
+     )

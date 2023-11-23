@@ -1,0 +1,40 @@
+funcao Média:
+ calacular a média de 3 notas e definir se o aluno é aprovado ou reprovado, 
+ sendo a média >= 7
+
+ Variaveis():
+  Nota1 
+  Nota2
+  Nota3
+  Média = <= 7
+
+  Construtor():
+    se Média = (Nota1 + Nota2 + Nota3) % 3 FOR >= 7
+     imprime ("Aprovado")
+    se Média = (Nota1 + Nota2 + Nota3) % 3 for < 7 
+     imprime ("Reprovado")
+     
+ CORRECAO:
+
+ funcao somaDasNotas():
+
+  resultado = 0
+  cada nota em lista;
+   resultado = resultado + nota
+  retorna resultado
+
+ funcao calculaMedia(notas):
+
+  soma = somaDasNotas (notas)
+  retorna soma/notas.tamanho()
+
+notas = []
+cada i em [1..3]
+ entrada ("Coloca a {i}º nota: ",x)
+ notas.adicionai(x)
+
+ media = calculaMedia(notas)
+  se media >=7:
+    imprime ("Parabens! Aprovado)
+  SENAO:
+   imprime("Estudassess!")

@@ -1,0 +1,26 @@
+#Um palíndromo é uma sequência de caracteres que permanece a mesma quando lida da esquerda para a direita e da direita para a esquerda.
+
+
+funcao VerificarPolidromo(array)
+      
+    tamanho = array.tamanho()
+
+    se i = 0 && i < array.tamanho() / 2; 
+      i++
+    
+    se array[i] != array[array.tamanho - i - 1]
+     retorna falso
+    senao
+     retorna vrdadeiro
+
+    se VerificarPolidromo(ArrayPolindromo):
+     imprime("O array é um palíndromo.")
+    senao:
+     imprime("O array não é um palíndromo.")
+
+ArrayPolindromo = ["A", "r", "e", "n", "a"]
+
+resultado = VerificarPolidromo(ArrayPolindromo)
+
+entarda ("Array para Verificar se é Palíndromo:")
+  imprime(ArrayPolindromo)

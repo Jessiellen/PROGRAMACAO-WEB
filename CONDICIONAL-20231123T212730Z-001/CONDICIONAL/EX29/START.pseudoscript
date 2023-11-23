@@ -1,0 +1,18 @@
+#Desenvolva um programa que calcule o fatorial de um número.
+
+fatorial é a multiplicação de um número por todos os números menores que ele
+
+
+função fatorial(n):
+    se n == 0:
+        retorne 1
+    senao:
+        retorne n * fatorial(n - 1)
+    se resultado = fatorial(n)
+      imprime("O fatorial de {n} é: {resultado}")
+
+
+entrada ("Indique o número a calcular: ", n)
+  imprime("O factorial de {n} é {resultado})
+
+        

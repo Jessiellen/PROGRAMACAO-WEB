@@ -1,0 +1,26 @@
+#Escreva um programa que determine se um número é um número de Fibonacci.
+
+
+#A sequência de Fibonacci é uma sucessão de números naturais em que cada termo,
+a partir do terceiro, é dado pela soma de seus dois termos antecessores.
+
+
+funcao DeterminarFibonacci(numero)
+
+fibonacci1 = 0
+fibonacci2 = 1
+fibonacci3 = fibonacci1 + fibonacci2
+  
+
+  para cada i em (0...numero)
+   imprime("fibonacci1")
+
+  se fibonacci3 = fibonacci1 + fibonacci2
+   se fibonacci1 == fibonacci2 && fibonacci2 == fibonacci3
+     imprime ("O numero {numero} é um número de Fibonacci.")
+
+   senao 
+      imprime ("O numero {numero} não é um número de Fibonacci.")
+
+
+

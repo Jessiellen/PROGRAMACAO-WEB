@@ -1,0 +1,24 @@
+funcao multiplo;
+  para saber se o numero é multiplo  temos que encontrar um numero inteiro que a que miltipliocao entre eles  equivale ao 1 numero
+ 
+ 
+ Variaveis:
+
+   a = (5,5) = true
+   b = (7,3) = false
+   rest = 0
+
+Construtor():
+ se a % b = 0
+  imprime ("é um multiplo")
+
+CORRECAO:
+
+ funcao multiploDe5(x):
+  retorna x % 5 == 0
+
+  entrada ("Diga o seu numero: ", numero)
+   se multiploDe5(numero):
+    imprime("{numero} é multiplo de 5")
+  senao:
+   imprime("{numero}não é multiplo de 5")

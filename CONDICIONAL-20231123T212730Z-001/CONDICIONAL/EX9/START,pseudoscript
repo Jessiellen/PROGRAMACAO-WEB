@@ -1,0 +1,38 @@
+#Desenvolva um programa que calcule o preço final de um produto, considerando um
+desconto de 10% se o valor for superior a €100,00.
+
+desconto = o preço multiplocado por 0.9 que fará a pessoa pagar o produto com os 10% de desconto
+preço = preço
+  Entrada ("Diga um preço:", x)
+   imprime ("O preço final é {x}, x") 
+
+
+
+funcao PrecoFinal(preço):
+
+se o preço for > 100:
+  preço = preco(preço * 0.9)
+   imprime ("O desconto é x")
+
+senao:
+   se o preço for <= 100
+    retorna
+
+
+PrecoFinal(preço).desconto
+
+
+
+
+CORRECAO
+
+funcao calculaPrecoFinal(preco):
+
+  se preco > 100: # desconto de 10%
+   retorna preco * 0.9
+senao:
+ se preco < 100:
+  retona preco
+
+entrada ("Diga um preco:", x)
+ imprime ("o preco final é de: {calculaPrecoFinal (x)}")
